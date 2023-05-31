@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.App small {
+  font-size: 11px;
+  line-height: 45px;
+  margin-top: 10px;
+  vertical-align: top;
+}
+.App a {
+  text-decoration: none;
+}
+.App strong {
+  font-size: 33px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .weather-icon {
+  max-width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .content {
+  border: none;
+  border-radius: 6px;
+  padding: 0 0 50px 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 20px auto;
+  max-width: 600px;
+  background: rgb(173, 173, 173);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App .search-bar {
+  padding: 10px 10px 10px 10px;
+  margin: 50px 30px 30px 0;
+  border-radius: 5px;
+  border: none;
+}
+.App .button {
+  padding: 10px;
+  margin: 50px 30px 30px 0;
+  background-color: rgb(190, 190, 190);
+  border: 1px solid;
+  border-radius: 5px;
+  color: rgb(88, 88, 88);
+}
+.App .button:hover,
+.App .location:hover {
+  background-color: cadetblue;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App .days {
+  padding-bottom: 120px;
+}
+.App .conditions {
+  margin: 10px 0 60px 0;
+}
+.App .sunny {
+  font-size: 30px;
+  margin: 10px 0 10px 0;
+  color: rgb(242, 203, 0);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App .city {
+  font-size: 25px;
+  font-weight: bold;
+}
+.App .actual-temp {
+  font-size: 30px;
+}
+
+.App .btn-group {
+  margin-right: 30px;
+}
+
+.App .link:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 214);
+}
+.App .celsius {
+  color: black;
+}
+
+@media (max-width: 476px) {
+  .content {
+    max-width: 330px;
+    display: block;
+    margin: 0 auto;
   }
-  to {
-    transform: rotate(360deg);
+  .code-source {
+    display: block;
+    margin: 0 auto;
   }
 }
