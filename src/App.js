@@ -65,7 +65,7 @@ export default function App() {
 
           <small className="code-source">
             <a
-              href="https://github.com/sthandiwe-prog/my-weather-project"
+              href="https://github.com/sthandiwe-prog/react-app"
               target="_blank"
               title="my code"
               rel="noreferrer"
